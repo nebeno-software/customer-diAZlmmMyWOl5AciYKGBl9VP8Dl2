@@ -69,14 +69,13 @@ a:hover {
     text-decoration: underline;
 }
 
-.portfolio-section, .angebot-section {
-    text-align: center;
+section, .portfolio-section, .angebot-section, .about-section, .contact-form-container {
+    max-width: 1000px;
     margin: 40px auto;
     padding: 30px;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
 }
 
 .portfolio-section h2, .angebot-section h2 {
@@ -108,30 +107,12 @@ a:hover {
     margin-bottom: 15px;
 }
 
-.about-section {
-    text-align: center;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-}
 .about-content {
     font-size: 1rem;
     color: #6c757d;
     line-height: 1.8;
 }
 
-.contact-form-container {
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 25px;
-    border: none;
-    border-radius: 12px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 .contact-form-title {
     font-size: 1.8rem;
     margin-bottom: 15px;
