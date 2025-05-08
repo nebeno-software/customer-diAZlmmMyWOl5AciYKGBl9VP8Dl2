@@ -174,3 +174,98 @@ section, .portfolio-section, .angebot-section, .about-section, .contact-form-con
 .form-group textarea:hover {
     background-color: #e9ecef;
 }
+
+
+
+
+
+
+
+
+
+html {
+        scroll-behavior: smooth;
+}
+
+
+
+header {
+        background: linear-gradient(90deg, #6a11cb, #2575fc);
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+}
+
+
+
+.form-button {
+        padding: 12px 20px;
+        background-color: #2575fc;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+        background-color: #1a5bb8;
+        transform: scale(1.05);
+}
+
+footer div a {
+        font-size: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+}
+
+footer div a:hover {
+        color: #d1e7ff;
+        text-decoration: underline;
+}
+
+
+section, .portfolio-section, .angebot-section, .about-section, .contact-form-container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+}
+
+section:hover, .portfolio-section:hover, .angebot-section:hover, .about-section:hover, .contact-form-container:hover {
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+.portfolio-images img, .angebot-images img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 4px solid transparent;
+        background-clip: padding-box;
+}
+
+.portfolio-images img:hover, .angebot-images img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        border: 4px solid linear-gradient(90deg, #6a11cb, #2575fc);
+}
+
